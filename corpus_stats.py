@@ -9,7 +9,7 @@
 
 import re
 
-FILENAME = "text.txt"
+FILENAME = "corpus_text.txt"
 
 # Слово: літери, всередині можуть бути апостроф або дефіс (м'яч, будь-який).
 WORD_RE = re.compile(r"[^\W\d_]+(?:['’ʼ-][^\W\d_]+)*")
